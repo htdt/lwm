@@ -1,0 +1,29 @@
+optim:
+    lr: 5e-4
+    eps: 1e-3
+    clip_grad: 40
+
+agent:
+    rnn_size: 128
+    actors: 8
+    unroll: 32
+    burnin: 16
+    batch_size: 32
+    gamma: 0.99
+    target_tau: 0.05
+    eps: 0.01
+
+self_sup:
+    lr: 5e-4
+    ri_momentum: 0.99
+
+buffer:
+    device: cuda
+    size: 1e5
+    warmup: 1e4
+
+train:
+    frames: 1e6
+    max_ep_len: 1000
+    learner_every: 4
+    log_every: 100

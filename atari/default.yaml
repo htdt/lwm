@@ -1,0 +1,40 @@
+optim:
+    lr: 1e-4
+    eps: 1e-3
+    clip_grad: 40
+
+agent:
+    actors: 128
+    unroll: 80
+    burnin: 40
+    batch_size: 16
+    frame_stack: 1
+    n_step: 5
+    gamma: 0.99
+    target_tau: 0.005
+    # eps: 0.01
+
+w_mse:
+    lr: 5e-4
+    frame_stack: 1
+    spatial_shift: 4
+    temporal_shift: 2
+    emb_size: 32
+    rnn_size: 256
+    ri_momentum: 0.999
+    ri_clamp: 10
+
+buffer:
+    device: cpu
+    size: 1e6
+    warmup: 4e5
+    prior_exp: 0.9
+    importance_sampling_exp: 0.6
+
+train:
+    frames: 5e7
+    max_ep_len: 10000
+    learner_every: 1
+    w_mse_every: 1
+    log_every: 100
+    checkpoint_every: 1000

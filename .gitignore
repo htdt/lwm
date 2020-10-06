@@ -1,0 +1,5 @@
+**/__pycache__
+**/wandb/**
+*/models/*.pt
+*/monitor_output/
+*/monitor_output/**
