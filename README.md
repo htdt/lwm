@@ -44,12 +44,12 @@ python -m eval --size 3 --random
 
 Code of the environment is in [pol/pol_env.py](https://github.com/htdt/lwm/blob/master/pol/pol_env.py), it extends `gym.Env` and can be used as usual:
 ```python
-In [1]: from pol_env import PolEnv
-In [2]: env = PolEnv(size=3)
-In [3]: obs = env.reset()
-In [4]: action = env.observation_space.sample()
-In [5]: obs, reward, done, infos = env.step(action)
-In [6]: env.render()
+from pol_env import PolEnv
+env = PolEnv(size=3)
+obs = env.reset()
+action = env.observation_space.sample()
+obs, reward, done, infos = env.step(action)
+env.render()
 #######
 # #   #
 # ### #
