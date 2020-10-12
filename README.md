@@ -15,6 +15,7 @@ cd atari
 python -m train --env MontezumaRevenge --seed 0
 python -m eval --env MontezumaRevenge --seed 0
 ```
+See `default.yaml` for detailed configuration.
 
 To get trajectory plots as on Figure 3:
 ```sh
