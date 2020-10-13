@@ -1,7 +1,7 @@
 # Latent World Models For Intrinsically Motivated Exploration
 Official repository | [arXiv:2010.02302](https://arxiv.org/abs/2010.02302) | NeurIPS 2020 Spotlight
 
-![montezuma's revenge t-sne](https://github.com/htdt/lwm/blob/master/montezuma.png?raw=true)
+![montezuma's revenge t-sne](https://raw.githubusercontent.com/htdt/lwm/master/montezuma.png)
 
 ## Installation
 The implementation is based on PyTorch. Logging works on [wandb.ai](https://wandb.ai/). See `docker/Dockerfile`.
