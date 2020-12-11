@@ -1,6 +1,8 @@
 # Latent World Models For Intrinsically Motivated Exploration
 Official repository | [arXiv:2010.02302](https://arxiv.org/abs/2010.02302) | NeurIPS 2020 Spotlight
 
+[10m video presentation from NeurIPS](https://slideslive.com/38937965/latent-world-models-for-intrinsically-motivated-exploration)
+
 ![montezuma's revenge t-sne](https://raw.githubusercontent.com/htdt/lwm/master/montezuma.png)
 
 ## Installation
