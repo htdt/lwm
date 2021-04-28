@@ -63,3 +63,17 @@ env.render()
 #   # #
 #######
 ```
+
+## Bibtex
+```
+@inproceedings{LWM,
+ author = {Ermolov, Aleksandr and Sebe, Nicu},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin},
+ pages = {5565--5575},
+ publisher = {Curran Associates, Inc.},
+ title = {Latent World Models For Intrinsically Motivated Exploration},
+ volume = {33},
+ year = {2020}
+}
+```
